@@ -54,8 +54,6 @@ These visualizations offer intuitive understanding of model performance and beha
 🛠️ How to Use
 # 1.Clone the repository:
 
-git clone https://github.com/your-username/brain-tumor-vgg16.git
-cd brain-tumor-vgg16
 # 2.Mount your Google Drive (if using Colab):
 from google.colab import drive
 drive.mount('/content/drive')
