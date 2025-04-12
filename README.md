@@ -35,7 +35,6 @@ We built on the VGG16 backbone and fine-tuned the last few layers:
 
 Training parameters:
 
-```python
 optimizer = Adam(learning_rate=1e-4)
 loss = sparse_categorical_crossentropy
 epochs = 5
@@ -53,59 +52,43 @@ batch_size = 20
 These visualizations offer intuitive understanding of model performance and behavior.
 
 🛠️ How to Use
-Clone the repository:
+# 1.Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/brain-tumor-vgg16.git
 cd brain-tumor-vgg16
-Mount your Google Drive (if using Colab):
-
-python
-Copy
-Edit
+# 2.Mount your Google Drive (if using Colab):
 from google.colab import drive
 drive.mount('/content/drive')
-Install dependencies:
 
-bash
-Copy
-Edit
+# 3.Install dependencies:
 pip install tensorflow matplotlib seaborn scikit-learn
-Train the model or evaluate:
 
-python
-Copy
-Edit
+# 4.Train the model or evaluate:
 model.fit(...)
 evaluate_model(...)
-📌 Future Work
+
+# 📌 Future Work
 🧠 Integrate Federated Learning for privacy-preserving training
 
 🛡️ Add Blockchain-based data integrity verification
 
 ⚛️ Explore Quantum-AI fusion for model acceleration
 
-🤝 Contributing
+# 🤝 Contributing
 We love contributions! Feel free to fork, submit pull requests, or open issues. Make sure to follow our contribution guidelines and keep it constructive 🚀
 
-📜 License
+# 📜 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
+# 🙌 Acknowledgements
 VGG16 - Keras Applications
 
 Brain MRI Dataset (Kaggle)
 
-⭐ Show Your Support
+# ⭐ Show Your Support
 If you found this project helpful, give it a ⭐ and consider sharing it! Every star motivates me to improve and build more!
 
 "Deep learning is not just math, it's the future of medicine." – You, after trying this out.
-
-yaml
-Copy
-Edit
 
 ---
 
